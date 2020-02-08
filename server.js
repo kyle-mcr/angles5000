@@ -2,8 +2,7 @@
 const express = require('express'),
 bodyParser = require('body-parser'),
 path = require('path'),
-app = express(),
-request = require('request');
+app = express();
 
 // app.use(cors({
 //     'allowedHeaders': ['sessionId', 'Content-Type'],
