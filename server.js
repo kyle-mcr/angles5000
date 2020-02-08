@@ -16,7 +16,7 @@ app.use(express.static(__dirname + '/public/dist/public'));
 app.use(express.json());
 
 app.all("*", (req, res, next) => {
-res.sendFile(path.resolve("./public/dist/public/index.html"))
+res.sendFile(path.resolve(__dirname +  '/public/dist/public/index.html'))
 });
 
 app.listen(8000, () => console.log('listening on port 8000'));
