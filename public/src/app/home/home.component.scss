@@ -1,0 +1,779 @@
+body {
+    background-color: #fff;
+    color: #737373;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  #contact_container {
+    background-color: #212121;
+    width: 100%;
+    margin-top: 15%;
+    padding-bottom: 2%;
+  }
+  .contact_box {
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 4%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #contact_headline {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: white;
+    width: 100%;
+    padding: 5% 32% 0px 39%;
+  }
+  .contact_title {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6%;
+  }
+  .contact_content {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    color: #999999;
+    font-size: 1vw;
+    line-height: 1.2em;
+    letter-spacing: 0em;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2.4em;
+    letter-spacing: 0.06em;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .page-link {
+    background-color: transparent;
+    padding: 1px 1px;
+    color: black;
+    transition: 0.5s;
+    font-size: 2vw;
+    margin-top: 2%;
+    border-color: transparent;
+    display: inline-block;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .page-link:hover {
+    background-color: transparent;
+    color: rgb(182, 180, 91);
+    border-color: transparent;
+  }
+  #center_body {
+    width: 80%;
+    height: 80%;
+    margin: 2% 15% 7% 10%;
+  }
+  .header {
+    height: 10%;
+  }
+  #logo {
+    width: 19%;
+    height: 10%;
+    margin: 2vh;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #top_right {
+    display: inline-block;
+    margin-top: 1vh;
+    vertical-align: top;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+  }
+  #name,
+  #number {
+    font-size: 1.2vw;
+    margin: 0px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .page-link {
+    vertical-align: top;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    margin-left: 8%;
+    font-size: 1.2vw;
+    font-weight: 400;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #links {
+    position: fixed;
+    left: 20%;
+    top: 2%;
+    display: inline-block;
+    width: 60%;
+    z-index: 1000;
+  }
+  #carouselExampleSlidesOnly {
+    width: 90%;
+    height: 80%;
+    margin: 2% 10% 2% 5%;
+  }
+  #tagline {
+    width: 100%;
+    padding-left: 10%;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #222;
+    margin-top: 5%;
+  }
+  #tagline_div {
+    width: 100%;
+    margin-bottom: 6%;
+  }
+  
+  .image_style {
+    width: 60%;
+  }
+  .stylist,
+  .stylist2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2em;
+    letter-spacing: 0.069em;
+    text-rendering: optimizeLegibility;
+    color: white;
+    text-align: center;
+    background-color: #383838;
+    margin: 0px;
+    padding: 0px;
+  }
+  .stylist2 {
+    font-style: italic;
+    color: #868686;
+    font-size: 1.2vw;
+  }
+  .container,
+  .container2 {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    margin: 0% 10% 5% 7%;
+    display: inline-block;
+  }
+  .container2 {
+    margin-left: 31%;
+    width: 29%;
+    margin-top: 5%;
+  }
+  .box {
+    width: 50%;
+    height: 15%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .shopimg {
+    width: 100%;
+  }
+  .stack-top {
+    z-index: 9;
+    margin-top: 10%; /* for demo purpose  */
+    margin-left: 80%;
+    height: 15%;
+    width: 50%;
+    background-color: #383838;
+  }
+  
+  .block {
+    width: 20%;
+    height: 2%;
+    border-bottom: 1px solid black;
+    margin: 1% 40% 5% 40%;
+  }
+  .services_p,
+  #service_header,
+  .services_p2,
+  .services_p3,
+  .services_p4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.4vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    font-family: Open Sans;
+    font-weight: 450;
+    font-style: italic;
+    line-height: 2.4em;
+    letter-spacing: 0.065em;
+    text-rendering: optimizeLegibility;
+    width: 100%;
+    text-align: center;
+  }
+  .services_p4 {
+    font-size: 0.7vw;
+    margin-top: 8%;
+  }
+  #service_header {
+    display: inline-block;
+    font-size: 1.5vw;
+    font-style: normal;
+    display: inline-block;
+  }
+  #services {
+    width: 55%;
+    margin: 6% 25% 2% 22%;
+  }
+  #view_services {
+    margin: 0px 40% 0px 40%;
+    width: 20%;
+    display: inline-block;
+    font-size: 1vw;
+    font-style: italic;
+  }
+  #our_location {
+    width: 90%;
+    height: 100%;
+    margin: 2% 10% 2% 5%;
+  }
+  #our_location_h1 {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #222;
+    width: 100%;
+    padding: 0px 33% 0px 39%;
+  }
+  
+  .image1,
+  .image2,
+  .image3 {
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+    height: 100%;
+    display: inline-block;
+  }
+  .shop {
+    height: 100%;
+    width: 100%;
+  }
+  #images_work {
+    width: 90%;
+    height: 100%;
+    margin: 8% 10% 2% 5%;
+  }
+  #our_work_h1 {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #222;
+    width: 100%;
+    padding: 0px 35% 0px 42%;
+  }
+  #our_team_h1 {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.25em;
+    letter-spacing: 0em;
+    text-transform: none;
+    font-family: brandon-grotesque;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.4em;
+    letter-spacing: 0.25em;
+    color: #222;
+    width: 100%;
+    padding: 5% 32% 0px 39%;
+  }
+  .services_p2 {
+    margin: 5% 0px 0px 0px;
+    padding: 0px;
+    line-height: 1em;
+    font-size: 0.8vw;
+    padding: 0px 4% 0px 4%;
+  }
+  
+  #contact {
+    background-color: #f5f6f8;
+    border-top: 1px solid black;
+  }
+  #icon {
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+  }
+  #icon4 {
+    font-size: 3vw;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    display: inline-block;
+  }
+  #iconss {
+    padding: 0px;
+    display: inline-block;
+    margin-left: 39%;
+    max-height: 5%;
+    width: 17%;
+  }
+  a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+  }
+  
+  @-webkit-keyframes wobble {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes wobble {
+    16.65% {
+      -webkit-transform: translateY(8px);
+      -ms-transform: translateY(8px);
+      transform: translateY(8px);
+    }
+    33.3% {
+      -webkit-transform: translateY(-6px);
+      -ms-transform: translateY(-6px);
+      transform: translateY(-6px);
+    }
+    49.95% {
+      -webkit-transform: translateY(4px);
+      -ms-transform: translateY(4px);
+      transform: translateY(4px);
+    }
+    66.6% {
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
+    83.25% {
+      -webkit-transform: translateY(1px);
+      -ms-transform: translateY(1px);
+      transform: translateY(1px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  .wobble {
+    display: inline-block;
+    margin-left: 17%;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  
+  .wobble:hover {
+    -webkit-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  @media only screen and (max-width: 600px) {
+    .page-link {
+      background-color: transparent;
+      padding: 1px 1px;
+      color: black;
+      transition: 0.5s;
+      font-size: 2.5vw;
+      margin-top: 2%;
+      border-color: transparent;
+      display: inline-block;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+    .page-link {
+      vertical-align: top;
+      letter-spacing: 0.02em;
+      display: inline-block;
+      margin-left: 3%;
+      font-size: 2.5vw;
+      font-weight: 450;
+      font-family: "Times New Roman", Times, serif;
+    }
+    #links {
+      position: fixed;
+      left: 6%;
+      top: 2%;
+      display: inline-block;
+      width: 100%;
+      z-index: 1000;
+    }
+    #name,
+    #number {
+      font-size: 1.3vw;
+      margin: 0px;
+      font-weight: 500;
+      font-family: "Times New Roman", Times, serif;
+    }
+    #tagline {
+      width: 100%;
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+      font-size: 3.5vw;
+      line-height: 1.25em;
+      letter-spacing: 0em;
+      text-transform: none;
+      font-family: brandon-grotesque;
+      font-weight: 700;
+      font-style: italic;
+      line-height: 1.4em;
+      letter-spacing: 0.1em;
+      color: #222;
+      margin-left: 0px;
+      padding: 0px;
+      padding-left: 1%;
+      margin-top: 7%;
+    }
+    #center_body {
+      width: 90%;
+      height: 80%;
+      margin: 15% 10% 9% 5%;
+      padding-bottom: 5%;
+    }
+    .services_p,
+    #service_header,
+    .services_p2,
+    .services_p3 {
+      font-family: "Times New Roman", Times, serif;
+      font-size: 2.8vw;
+      line-height: 1.25em;
+      letter-spacing: 0em;
+      font-family: Open Sans;
+      font-weight: 550;
+      font-style: italic;
+      line-height: 2.2em;
+      letter-spacing: 0.065em;
+      text-rendering: optimizeLegibility;
+      width: 100%;
+      text-align: center;
+    }
+    .services_p3 {
+      margin-bottom: 15%;
+    }
+    #service_header {
+      display: inline-block;
+      font-size: 2.6vw;
+      font-weight: 750;
+      font-style: italic;
+      display: inline-block;
+    }
+    #services {
+      width: 90%;
+      margin: 10% 10% 2% 5%;
+    }
+    #view_services {
+      margin: 0px 45% 0px 35%;
+      width: 30%;
+      display: inline-block;
+      font-size: 2vw;
+      font-weight: 600;
+      font-style: italic;
+    }
+    #our_location_h1,
+    #our_work_h1,
+    #our_team_h1 {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+      font-size: 4.6vw;
+      line-height: 1.25em;
+      letter-spacing: 0em;
+      text-transform: none;
+      font-family: brandon-grotesque;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 1.4em;
+      letter-spacing: 0.2em;
+      color: #222;
+      width: 100%;
+      padding: 15% 10% 10% 24%;
+    }
+    #our_work_h1 {
+      padding: 15% 10% 15% 31%;
+    }
+  
+    #our_location,
+    #our_team,
+    #images_work {
+      width: 90%;
+      height: 100%;
+      margin: 5% 10% 2% 5%;
+    }
+  
+    .image1,
+    .image2 {
+      width: 49%;
+      margin-top: 2%;
+      margin-left: 2.5%;
+      height: 100%;
+      display: inline-block;
+    }
+    .image1 {
+      padding: 0%;
+      margin: 0%;
+    }
+    .image2 {
+      padding: 0%;
+      margin: 0 0% 0% 2%;
+    }
+    .image3 {
+      width: 49%;
+      margin-top: 2%;
+      margin-left: 25%;
+      height: 100%;
+      display: inline-block;
+    }
+    .block {
+      width: 30%;
+      height: 2%;
+      border-bottom: 1px solid black;
+      margin: 1% 40% 15% 35%;
+    }
+    .container,
+    .container2 {
+      width: 75%;
+      height: 100%;
+      position: relative;
+      margin: 0% 0% 6% 3%;
+      padding: 0%;
+      display: inline-block;
+    }
+    .stylist,
+    .stylist2 {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 400;
+      font-size: 3vw;
+      line-height: 1.25em;
+      letter-spacing: 0em;
+      font-family: Open Sans;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 2em;
+      letter-spacing: 0.069em;
+      text-rendering: optimizeLegibility;
+      color: white;
+      text-align: center;
+      background-color: #383838;
+      margin: 0px;
+      padding: 0px;
+    }
+    .stylist2 {
+      font-style: italic;
+      color: #868686;
+      font-size: 2.9vw;
+    }
+    .services_p4 {
+      margin: 5% 0px 0px 0px;
+      padding: 0px;
+      line-height: 1em;
+      font-size: 1.2vw;
+      padding: 0px 4% 0px 4%;
+    }
+    #contact_container {
+      background-color: #212121;
+      width: 100%;
+      margin-top: 15%;
+      padding-bottom: 2%;
+    }
+    .contact_box {
+      width: 30%;
+      margin-left: 2%;
+      margin-top: 4%;
+      display: inline-block;
+      vertical-align: top;
+    }
+    #contact_headline {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+      font-size: 4.6vw;
+      line-height: 1.25em;
+      letter-spacing: 0em;
+      text-transform: none;
+      font-family: brandon-grotesque;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 1.4em;
+      letter-spacing: 0.25em;
+      color: white;
+      width: 100%;
+      padding: 13% 5% 5% 25%;
+    }
+    .contact_title {
+      display: inline-block;
+      font-family: Arial, sans-serif;
+      font-weight: 400;
+      font-size: 2vw;
+      line-height: 1.25em;
+      letter-spacing: 0em;
+      text-transform: none;
+      font-family: brandon-grotesque;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 1.4em;
+      letter-spacing: 0.25em;
+      color: white;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 6%;
+    }
+    .contact_content {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 400;
+      color: #999999;
+      font-size: 1.8vw;
+      line-height: 1.2em;
+      letter-spacing: 0em;
+      font-family: Open Sans;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 2.4em;
+      letter-spacing: 0.06em;
+      text-rendering: optimizeLegibility;
+      width: 100%;
+      text-align: center;
+      margin: 0px;
+      padding: 0px;
+    }
+    .wobble {
+      display: inline-block;
+      margin-left: 13%;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    }
+    #icon {
+      font-size: 5vw;
+      text-decoration: none;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+    }
+    #icon4 {
+      font-size: 5vw;
+      text-decoration: none;
+      color: white;
+      padding: 0px;
+      display: inline-block;
+    }
+    #iconss {
+      padding: 0px;
+      display: inline-block;
+      margin-left: 37%;
+      max-height: 5%;
+      width: 22%;
+      margin-top: 10%;
+    }
+    a {
+      text-decoration: none;
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+    }
+    #logo,
+    #topright,
+    #name,
+    #number {
+      display: none;
+    }
+    #carouselExampleSlidesOnly {
+      margin-top: 12%;
+    }
+  }
+  

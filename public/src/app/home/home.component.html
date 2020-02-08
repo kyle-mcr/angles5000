@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Angles 5000</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <img id="logo" src="../../assets/img/altlogo.png" />
+      <div id="links">
+        <button class="page-link" (click)="goToDestination('services')">
+          SERVICES + PRICING
+        </button>
+        <button
+          class="page-link"
+          dest="projects"
+          (click)="goToDestination('images_work')"
+        >
+          GALLERY
+        </button>
+        <button class="page-link" (click)="goToDestination('our_team')">
+          STYLISTS
+        </button>
+        <button
+          class="page-link"
+          dest="contact"
+          (click)="goToDestination('contact_container')"
+        >
+          CONTACT US
+        </button>
+      </div>
+      <div id="top_right">
+        <p id="name">Scotts Valley, CA</p>
+        <p id="number">(831) 438-0431</p>
+      </div>
+    </div>
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="5000">
+          <img
+            src="https://i.postimg.cc/KzjFg7pW/n1.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img
+            src="https://i.postimg.cc/ZRQcTZyQ/n4.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img
+            src="https://i.postimg.cc/3JTLW8qM/n5.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img
+            src="https://i.postimg.cc/vmkhybnN/n6.pnga"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <div id="center_body">
+      <div id="tagline_div">
+        <h1 id="tagline">"Where casual beachy meets urban professional"</h1>
+      </div>
+      <div class="block"></div>
+      <div id="services">
+        <h1 id="service_header">SCOTTS VALLEY'S PREMIER HAIR SALON</h1>
+        <p class="services_p">
+          We specialize in Women's and Men’s Hair Care & Cutting, Razor Cutting,
+          Hair Coloring, Hair Painting, Highlights, Balayage, Natural Bleach &
+          Tone, Blowdrys, Make-up on request, and a vast array of other Salon
+          Services.
+        </p>
+      </div>
+      <button
+        id="view_services"
+        type="button"
+        [routerLink]="['/services']"
+        class="btn btn-outline-dark"
+      >
+        View Services
+      </button>
+    </div>
+    <div id="our_location">
+      <h1 id="our_location_h1">OUR LOCATION</h1>
+      <div class="block"></div>
+      <div id="location_images">
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/shop4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/shop5.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/shop6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/shop2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/shop1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/shop3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <div id="images_work">
+      <h1 id="our_work_h1">OUR WORK</h1>
+      <div class="block"></div>
+      <div id="location_images">
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair5.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair7.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair8.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair9.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair11.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair12.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair13.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image1">
+          <img
+            class="shop"
+            src="../../assets/img/hair16.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image2">
+          <img
+            class="shop"
+            src="../../assets/img/hair15.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="image3">
+          <img
+            class="shop"
+            src="../../assets/img/hair17.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <div id="our_team">
+      <h1 id="our_team_h1">MEET THE TEAM</h1>
+      <div class="block"></div>
+      <p class="services_p3">
+        Get to know the people behind the scenes. We are a group of hard
+        working, experienced, and passionate professionals.
+      </p>
+      <div id="location_images">
+        <div class="container2">
+          <img
+            class="shopimg"
+            src="../../assets/img/s6.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Maggie | Owner/Stylist</p>
+            <p class="stylist2">(831) 438-0431</p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="shopimg"
+            src="../../assets/img/s7.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Noelle | Stylist</p>
+            <p class="stylist2">(831) 247-3467</p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="shopimg"
+            src="../../assets/img/s1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Jo | Stylist</p>
+            <p class="stylist2">(831) 438-1002</p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="shopimg"
+            src="../../assets/img/s3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Lorelei | Stylist</p>
+            <p class="stylist2">(831) 438-0504</p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="shopimg"
+            src="../../assets/img/s4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Catrina | Stylist</p>
+            <p class="stylist2">(831) 246-3576</p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="shopimg"
+            src="../../assets/img/s2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Kimmie | Stylist</p>
+            <p class="stylist2">(831) 252-0992</p>
+          </div>
+        </div>
+        <div class="container">
+          <img
+            class="shopimg"
+            src="../../assets/img/s5.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="box"></div>
+          <div class="box stack-top">
+            <p class="stylist">Allyssa | Stylist</p>
+            <p class="stylist2">(209) 613-1045</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact_container">
+      <h1 id="contact_headline">GET IN TOUCH</h1>
+      <div class="contact_box">
+        <h1 class="contact_title">
+          BOOK WITH US
+        </h1>
+        <p class="contact_content">
+          SCOTTS VALLEY, CA
+        </p>
+        <p class="contact_content">(831) 438-0431</p>
+        <p class="contact_content">maggieangles5000@gmail.com</p>
+      </div>
+      <div class="contact_box">
+        <h1 class="contact_title">
+          VISIT US
+        </h1>
+        <p class="contact_content">
+          SCOTTS VALLEY
+        </p>
+        <p class="contact_content">5000 SCOTTS VALLEY DR</p>
+        <p class="contact_content">SCOTTS VALLEY, CA 95066</p>
+      </div>
+      <div class="contact_box">
+        <h1 class="contact_title">
+          SALON HOURS
+        </h1>
+        <p class="contact_content">Monday | By Request</p>
+        <p class="contact_content">Tuesday - Wednesday | 9am - 6pm</p>
+        <p class="contact_content">Thursday | 9am - 7pm</p>
+        <p class="contact_content">Friday | 9am - 7pm</p>
+        <p class="contact_content">Saturday | 9am - 5pm</p>
+        <p class="contact_content">Sunday | By Request</p>
+      </div>
+      <div id="iconss">
+        <div class="wobble">
+          <a href="mailto:maggieangles5000@gmail.com" target="_blank"
+            ><i id="icon4" class="far fa-envelope"></i
+          ></a>
+        </div>
+        <div class="wobble">
+          <a
+            href="https://www.yelp.com/biz/angles-5000-salon-scotts-valley"
+            target="_blank"
+            ><i id="icon" class="fab fa-yelp"></i
+          ></a>
+        </div>
+        <div class="wobble">
+          <a href="https://www.instagram.com/angles5000salon/" target="_blank"
+            ><i id="icon" class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="services_p4">
+        WE REQUIRE 24 HOURS NOTICE TO CANCEL AN APPOINTMENT; IN THE CASE THAT 24
+        HOURS NOTICE IS NOT GIVEN FOR A CANCELLATION, THE RESERVED CREDIT CARD
+        WILL BE CHARGED 50% OF THE SERVICE THAT WAS MISSED. NO SHOWS ARE
+        INCLUDED UNDER THIS POLICY. PLEASE BE AWARE THAT IF YOU ARE MORE THAN 15
+        MINUTES LATE FOR YOUR APPOINTMENT, WE MAY NOT BE ABLE TO PROVIDE THE
+        SERVICE FOR WHICH YOU HAVE BEEN SCHEDULED AND A CANCELLATION FEE WILL
+        APPLY.
+      </div>
+    </div>
+  </body>
+</html>
